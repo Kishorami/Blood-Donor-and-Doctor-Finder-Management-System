@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 30, 2017, 1:09:33 PM
+    Author     : Rashed
+*/
+
+
+input[type="text"].login:focus, input[type="password"].login:focus, input[type="email"].login:focus, textarea.login:focus {
+    background: none;
+    outline: none;
+    color: white;
+}
+
+button.login {
+    border-radius: 5px;
+    background-color: #393939;
+    color: white;
+    height: 34px;
+}
+.logout{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.logout a{
+    color:red;
+
+}
+.dropdown-menu>li>a.li_menu {
+    color: #fbfbfb !important;
+}
+.dropdown-menu>li>a.li_menu:hover {
+    color: black !important;
+}
+#myBtn { 
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #c9302c; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 25px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
